@@ -29,7 +29,7 @@ header img{
 header p{
     color: hsl(30, 10%, 34%);
     padding-bottom: 15px;
-    font-size: 17px;
+    font-size: 16px;
     margin: 10px;
 }
 header h1{
@@ -47,7 +47,7 @@ table tr{
     padding: 20px;
 }
 table tr th{
-    padding: 20px;
+    padding: 13px;
 }
 .instructions ol{
     
@@ -58,6 +58,7 @@ table tr th{
     margin: 0;
     line-height: 19px;
     padding-left: 20px;
+    font-size: 15px;
 }
 .instructions h2{
     color: hsl(14, 45%, 36%);
@@ -138,4 +139,7 @@ div{
 }
 .nutrition tr td{
     color: hsl(14, 45%, 36%);
+}
+table tr:last-child {
+    border-bottom: none;
 }
