@@ -13,8 +13,8 @@ body{
     align-items: center;
     background-color:  hsl(30, 54%, 90%);
     font-size: 100%;
-    min-height: 250vh;
-    margin: 100%;
+    max-height: 300vh;
+   
     
     background-color:  hsl(30, 54%, 90%);
     
@@ -73,6 +73,7 @@ div{
     padding: 20px;
     font-size: 16px;
     border-radius: 20px;
+    margin: 100%;
     
 }
 .time{
